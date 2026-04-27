@@ -3,17 +3,333 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ruba Portfolio</title>
+  <title>Ruba Alghamdi | UX/UI Portfolio</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   >
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <main id="app"></main>
+  <header class="site-header">
+  <div class="logo">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+  <span class="icon sun"></span>
+  <span class="icon moon"></span>
+</button>
+<a class="logo" href="#home">
+      <span>Ruba Alghamdi</span>
+    </a>
+</div>
+
+    <nav class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+       
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">UX/UI Designer · Computer Science Graduate</span>
+
+          <h1>Designing thoughtful digital experiences with a technical mindset.</h1>
+
+          <p>
+            I’m Ruba Alghamdi, a UX/UI designer with a Computer Science background.
+            I create clean, usable interfaces and understand how design decisions connect
+            to real implementation.
+          </p>
+
+          <div class="actions">
+            <a class="btn btn-primary" href="#projects">View Projects →</a>
+            <a class="btn btn-secondary" href="#about">About Me</a>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+
+          <div class="floating-card card-one">
+            <span>Focus</span>
+            <strong>UX/UI Design</strong>
+          </div>
+
+          <div class="floating-card card-two">
+            <span>Mindset</span>
+            <strong>Design + Code</strong>
+          </div>
+
+          <div class="device-mockup">
+            <div class="mockup-bar"></div>
+            <div class="mockup-line wide"></div>
+            <div class="mockup-line"></div>
+            <div class="mockup-grid">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Strengths</span>
+          <h2 class="section-title">What I bring</h2>
+        </div>
+
+        <div class="skills-grid">
+  <article class="skill-card image-skill-card">
+    <img src="assets/ux-design.png" alt="UX/UI Design">
+    <h3>UX/UI Design</h3>
+    <p>User flows, wireframes, prototypes, and clean interface design.</p>
+  </article>
+
+  <article class="skill-card image-skill-card">
+    <img src="assets/code.png" alt="Technical Awareness">
+    <h3>Technical Awareness</h3>
+    <p>HTML, CSS, Java, Swift, Python, and MySQL.</p>
+  </article>
+
+
+
+  <article class="skill-card image-skill-card" >
+    <img src="assets/product-thinking.png" alt="Product Thinking">
+    <h3>Product Thinking</h3>
+    <p>Designing around real problems, goals, and constraints.</p>
+  </article>
+</div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Selected work</span>
+          <h2 class="section-title">Selected UX/UI Projects</h2>
+          <p>
+            A collection of interface and product design projects focused on clarity,
+            usability, and user-friendly digital experiences.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+  <a class="project-card" href="#mobile-auth">
+    <div class="project-preview">
+      <img src="assets/mobile-auth1.png" alt="Mobile Authentication Experience preview">
+    </div>
+    <h3>Mobile Authentication Experience</h3>
+    <p>A smooth and secure onboarding and login experience for mobile users.</p>
+  </a>
+
+  <a class="project-card" href="#card-match-game">
+    <div class="project-preview">
+      <img src="assets/card-match-game1.png" alt="Card Match Game UI preview">
+    </div>
+    <h3>Card Match Game UI</h3>
+    <p>A minimal and engaging memory game interface focused on clarity and usability.</p>
+  </a>
+
+  <a class="project-card" href="#bakery-shopping">
+    <div class="project-preview">
+      <img src="assets/bakery-shopping1.png" alt="Bakery Shopping App UI preview">
+    </div>
+    <h3>Bakery Shopping App UI</h3>
+    <p>A clean mobile shopping experience focused on product browsing and quick purchasing.</p>
+  </a>
+
+  <a class="project-card" href="#frog-focus-timer">
+    <div class="project-preview">
+      <img src="assets/frog-focus-timer1.png" alt="Frog Focus Timer preview">
+    </div>
+    <h3>Frog Focus Timer</h3>
+    <p>A playful productivity timer designed to improve focus and user engagement.</p>
+  </a>
+</div>
+      </div>
+    </section>
+
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div>
+          <span class="eyebrow">About</span>
+          <h2 class="section-title">A designer who understands how products are built.</h2>
+        </div>
+
+        <div class="about-text">
+          <p>
+            I design digital products with a balance of usability, visual clarity,
+            and technical awareness. My Computer Science background helps me think
+            beyond screens and understand how design decisions affect real implementation.
+          </p>
+
+          <div class="about-tags">
+            <span>Figma</span>
+            <span>UX Research</span>
+            <span>Prototyping</span>
+            <span>App & Web Design</span>
+            <span>Front-End</span>
+          </div>
+          <a class="btn btn-primary cv-button" href="assets/Ruba-Alghamdi-CV.pdf" download>
+  Download CV
+</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section project-page" id="mobile-auth">
+  <div class="container">
+    <a class="back-link" href="#projects">← Back to projects</a>
+
+    <h1>Mobile Authentication Experience</h1>
+    <p>A smooth and secure onboarding and login experience for mobile users.</p>
+
+    <div class="project-detail-layout">
+  <div class="carousel">
+    <button class="carousel-btn prev">‹</button>
+
+    <div class="carousel-track">
+      <img class="carousel-image active" src="assets/mobile-auth1.png" alt="Mobile auth screen 1">
+      <img class="carousel-image" src="assets/mobile-auth2.png" alt="Mobile auth screen 2">
+    </div>
+
+    <button class="carousel-btn next">›</button>
+  </div>
+
+  <div class="case-overview">
+    <h2>Overview</h2>
+    <p>
+      This onboarding and authentication flow was designed in Figma with a focus on clarity and ease of navigation. Inspired by a concept I saw on Pinterest, I illustrated the characters myself, converted them into vectors, and integrated them into the interface to create a friendly visual identity. The layout follows familiar authentication patterns and clear visual hierarchy to guide users smoothly through sign-up and login. Reusable components and simple interactions were used to maintain consistency and simulate navigation in the prototype.
+    </p>
+  </div>
+</div>
+
+    <a class="btn btn-primary" target="_blank" href="https://www.figma.com/proto/IdQZWJLPUnZfKSnx2oz9da/hilow">
+      View Prototype →
+    </a>
+  </div>
+</section>
+
+   <section class="section project-page" id="card-match-game">
+  <div class="container">
+    <a class="back-link" href="#projects">← Back to projects</a>
+
+    <h1>Card Match Game UI</h1>
+    <p>A minimal and engaging memory game interface focused on clarity and usability.</p>
+
+    <div class="project-detail-layout">
+      <div class="carousel">
+        <button class="carousel-btn prev">‹</button>
+
+        <div class="carousel-track">
+          <img class="carousel-image active" src="assets/card-match-game1.png" alt="Card Match Game screen 1">
+          <img class="carousel-image" src="assets/card-match-game2.png" alt="Card Match Game screen 2">
+        </div>
+
+        <button class="carousel-btn next">›</button>
+      </div>
+
+      <div class="case-overview">
+        <h2>Overview</h2>
+        <p>
+          This mobile game interface was designed in Figma, inspired by a concept I discovered on Pinterest which I used as a starting point to explore game UI structure. I recreated the layout while adapting the color system and visual elements, and designed both light and dark modes to improve accessibility and visual comfort. The interface focuses on clear hierarchy, minimal distraction, and quick interaction, allowing users to easily focus on gameplay. Components and simple interactions were prototyped to simulate the game flow from start screen to win state.
+        </p>
+      </div>
+    </div>
+
+    <a class="btn btn-primary" target="_blank" href="https://www.figma.com/proto/XCV4xGvHEXoIChgjCQu8rz/card-match?node-id=1-33&starting-point-node-id=1%3A33">
+      View Prototype →
+    </a>
+  </div>
+</section>
+
+<section class="section project-page" id="bakery-shopping">
+  <div class="container">
+    <a class="back-link" href="#projects">← Back to projects</a>
+
+    <h1>Bakery Shopping App UI</h1>
+    <p>A clean mobile shopping experience focused on product browsing and quick purchasing.</p>
+
+    <div class="project-detail-layout">
+      <div class="carousel">
+        <button class="carousel-btn prev">‹</button>
+
+        <div class="carousel-track">
+          <img class="carousel-image active" src="assets/bakery-shopping1.png" alt="Bakery screen 1">
+          <img class="carousel-image" src="assets/bakery-shopping2.png" alt="Bakery screen 2">
+        </div>
+
+        <button class="carousel-btn next">›</button>
+      </div>
+
+      <div class="case-overview">
+        <h2>Overview</h2>
+        <p>
+          This mobile e-commerce interface was designed in Figma to explore a clean and intuitive food ordering experience. The layout focuses on clear product hierarchy, visual emphasis on imagery, and simplified navigation to help users quickly browse items and add them to their cart. Product cards, detail pages, and the checkout flow were structured using consistent components and spacing to maintain usability across screens. The goal was to create a friendly shopping experience where users can easily discover products and complete purchases with minimal friction.
+        </p>
+      </div>
+    </div>
+
+    <a class="btn btn-primary" target="_blank" href="https://www.figma.com/proto/hfAOG7XHDB41ZZp127LxvC/bakery-shop">
+      View Prototype →
+    </a>
+  </div>
+</section>
+<section class="section project-page" id="frog-focus-timer">
+  <div class="container">
+    <a class="back-link" href="#projects">← Back to projects</a>
+
+    <h1>Frog Focus Timer</h1>
+    <p>A playful productivity timer designed to improve focus and user engagement.</p>
+
+    <div class="project-detail-layout">
+      <div class="carousel">
+        <button class="carousel-btn prev">‹</button>
+
+        <div class="carousel-track">
+          <img class="carousel-image active" src="assets/frog-focus-timer1.png" alt="Timer screen 1">
+          <img class="carousel-image" src="assets/frog-focus-timer2.png" alt="Timer screen 2">
+        </div>
+
+        <button class="carousel-btn next">›</button>
+      </div>
+
+      <div class="case-overview">
+        <h2>Overview</h2>
+        <p>
+          This concept timer app was designed in Figma to explore how playful illustration can enhance user engagement in productivity tools. After discovering the frog character on Pinterest, I built a simple timer experience around it, using the character to communicate states like focus, stop, and completion. The interface follows clear visual hierarchy and minimal controls to keep the interaction simple and distraction-free. Components and prototype interactions were used to simulate the full flow from setting the timer to completing a session.
+        </p>
+      </div>
+    </div>
+
+    <a class="btn btn-primary" target="_blank" href="https://www.figma.com/proto/L5vAc0dqdOeNUdmeZUI0eZ/frog-timer?node-id=2-26&starting-point-node-id=2%3A26">
+      View Prototype →
+    </a>
+  </div>
+</section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Ruba Alghamdi</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
